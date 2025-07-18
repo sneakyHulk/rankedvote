@@ -1,2 +1,5 @@
-# rankedvote
-Python library for ranked-choice voting with support for Schulze and STV methods
+# RankedVote — Simple Ranked Voting with Schulze and STV
+RankedVote is a lightweight and easy-to-use Python library for doing ranked-choice elections, with built-in support for:
+
+- Schulze method
+- Single Transferable Vote (STV)
