@@ -1,0 +1,12 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: RankedVote
+message: Thanks for using RankedVote - have fun with it!
+type: software
+authors:
+  - given-names: Lukas
+    family-names: Heyn
+    orcid: 'https://orcid.org/0009-0006-1896-9444'
+license: MIT
