@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rankedvote"
+dynamic = ["version"]
+description = "Simple Ranked Voting with Schulze and STV"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+dependencies = ["pyrankvote", "python3-vote-core", "setuptools<81"]
+classifiers = ["Development Status :: 4 - Beta"]
+authors = [{ name = "Lukas Heyn" }]
+
+[project.optional-dependencies]
+dev = ["pytest"]
